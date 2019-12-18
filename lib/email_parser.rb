@@ -5,7 +5,7 @@
 require  'pry'
 class EmailAddressParser
   @parse=[]
-  attr_reader :parse
+  attr_accessor :parse
   
   def initialize(emails)
    @parse = emails.split(/[\s|,]/)
