@@ -9,6 +9,5 @@ class EmailAddressParser
   
   def initialize(emails)
    @parse = emails.split(/[\s,]/)
-   pry.binding
   end
 end
